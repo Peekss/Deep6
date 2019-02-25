@@ -38,7 +38,6 @@ class DeleteNodeModal extends Component {
               <div className="DeleteNodeModal__ctas">
                 <Button
                   onClick={this.handleDeleteClick}
-                  icon={<i className="fas fa-trash-alt"></i>}
                   value="Yes, Delete"
                   cta="danger"
                 />
@@ -48,8 +47,6 @@ class DeleteNodeModal extends Component {
                   cta="secondary"
                 />
               </div>
-              <button onClick={this.handleDeleteClick}>Delete</button>
-              <button onClick={this.handleCloseModal}>Cancel</button>
             </div>
           }
         </div>
