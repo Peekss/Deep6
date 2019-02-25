@@ -1,0 +1,38 @@
+.Node {
+  max-width: 150px;
+  border: 1px dashed #ccc;
+  border-radius: 2px;
+  margin: 10px;
+
+  display: grid;
+  grid-template-rows: auto auto auto;
+}
+
+.Node__heading {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Node__name {
+  text-align: center;
+}
+
+.Node__children {
+  margin: 50px;
+}
+
+.Node--adding {
+
+}
+
+.Node--adding label {
+  font-size: 12px;
+}
+
+.Node--adding__button {
+  text-align: center;
+}
+
+.Node--editing label {
+  font-size: 12px;
+}

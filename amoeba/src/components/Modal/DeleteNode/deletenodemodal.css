@@ -1,0 +1,22 @@
+.DeleteNodeModal {
+  display: grid;
+  grid-template-rows: auto auto;
+}
+
+.DeleteNodeModal__close {
+  position: relative;
+  text-align: right;
+}
+
+.DeleteNodeModal__close i {
+  font-size: 2rem;
+}
+
+.DeleteNodeModal--warning {
+  color: #d31717;
+}
+
+.DeleteNodeModal__ctas {
+  display: flex;
+  justify-content: flex-end;
+}

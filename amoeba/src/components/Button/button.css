@@ -1,0 +1,27 @@
+.Button {
+  /* border: none; */
+  border-radius: 4px;
+  cursor: pointer;
+  /* height: 40px; */
+  margin: 5px 0px;
+  outline: none;
+}
+
+.Button--primary {
+  background-color: #0083db;
+  color: white;
+}
+
+.Button--secondary {
+  font-weight: bold;
+  border: none;
+}
+
+.Button--danger {
+  background: #F5CBCB;
+  border-color: #d31717;
+}
+
+.Button__value {
+  font-size: 1rem;
+}
